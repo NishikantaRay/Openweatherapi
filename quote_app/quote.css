@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.fa-twitter{
+    color: #23d5ab;
+    font-size: 25px;
+}
+
+.fa-twitter:hover{
+    color: #063344;
+}
+
+button:hover {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    transform: translateY(4px);
+    color: aliceblue;
+}
+
+button:active {
+    background-color: #3e8e41;
+ 
+}
+
+#tweetme{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 25px -6px black;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    outline: none;
+}
+
+
+#newQ{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 25px -6px rgb(3, 11, 46);
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    outline: none; 
+} 
+
+.card-section{
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 65px -6px rgb(30, 4, 124);
+    border-radius: 15px;
+}
+
+.card-title{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#quotes{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+#author{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .main_section{
+        margin-top: 55%;
+    }  
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .main_section{
+        margin-top: 35%;
+    }  
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .main_section{
+        margin-top: 25%;
+    }  
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .main_section{
+        margin-top: 15%;
+    }  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .main_section{
+        margin-top: 15%;
+    }  
+}
